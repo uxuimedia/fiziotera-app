@@ -1,19 +1,20 @@
 <!doctype html>
-<html lang="me-ME">
+<html lang="en">
   <head>
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <!-- <link rel="stylesheet" href="/assets/css/leaflet.css"> -->
-    
+    <!-- <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css">
+    <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"></script>  -->
 
     <!-- Bootstrap CSS -->
-    <link href="/assets/css/bootstrap.min.css" rel="stylesheet" />
-    <link href="/assets/css/animate.min.css" rel="stylesheet" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+
     <link href="/assets/css/style.css" rel="stylesheet">
 
-    <title>Fizioterapija i rehabilitacija | Fiziotera Center</title>
+    <title>Fiziotera Centre - Physiotherapy and rehabilitation</title>
 
   <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
 	<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
@@ -30,28 +31,28 @@
 
   	<nav class="navbar navbar-expand-lg navbar-light bg-white border-bottom">
 	  <div class="container">
-	    <a class="navbar-brand" href="/"><span><img src="/assets/images/fiziotera-new.svg" alt="Fiziotera" title="Fiziotera" width="200" height="42"></span></a>
+	    <a class="navbar-brand" href="/en/"><span><img src="/assets/images/fiziotera-new.svg" alt="Fiziotera" title="Fiziotera" width="200" height="42"></span></a>
 	    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
 	      <span class="navbar-toggler-icon"></span>
 	    </button>
 	    <div class="collapse navbar-collapse" id="navbarSupportedContent">
 	      <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
 	        <li class="nav-item">
-	          <a class="nav-link" href="#about">O Centru</a>
+	          <a class="nav-link" href="#about">About Us</a>
 	        </li>
 	        <li class="nav-item">
-	          <a class="nav-link" href="#team">Instruktori</a>
+	          <a class="nav-link" href="#team">Our Team</a>
 	        </li>
 	        <li class="nav-item">
-	          <a class="nav-link" href="#contacts">Kontakti</a>
+	          <a class="nav-link" href="#contacts">Contscts</a>
 	        </li>
 	        <li class="nav-item dropdown">
 	          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-	            MNE
+	            EN
 	          </a>
 	          <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-	            <li><a class="dropdown-item" href="/ru/">РУС</a></li>	            
-	            <li><a class="dropdown-item" href="/en/">ENG</a></li>
+	            <li><a class="dropdown-item" href="/">MNE</a></li>
+	            <li><a class="dropdown-item" href="/ru/">РУС</a></li>
 	          </ul>
 	        </li>
 					<li class="nav-item"><a target="_blank" href="https://instagram.com/fiziotera" class="nav-link "><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="#000000"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"></path></svg></a></li>
@@ -65,11 +66,11 @@
 
 	<div class="container">
 		<div class="row my-md-5 my-3">
-			<div class="col-md-6 offset-md-1 my-auto">						
-				<h1 class="text-xl wow animate__animated animate__fadeInDown text-center text-md-start">Fiziotera <span class="fw-normal">Center</span></h1>
-				<p class="mb-3 wow animate__animated animate__fadeInUp fs-115">Fizioterapija (terapija vježbanjem), korektivna gimnastika, oporavak i&nbsp;rehabilitacija u Crnoj Gori</p>
+			<div class="col-md-7 my-auto">						
+				<h1 class="text-xl fw-normal wow animate__animated animate__fadeInDown text-center text-md-start"><span class="black-color fw-bold">Fiziotera</span> Centre</h1>
+				<p class="mb-3 wow animate__animated animate__fadeInUp fs-115">Physiotherapy (exercise therapy), corrective gymnastics, recovery and rehabilitation in Montenegro</p>
 			</div>
-			<div class="col-md-4 text-center">
+			<div class="col-md-5 text-center">
 				<img src="/assets/images/fiziotera-main-image.png" alt="Fiziotera" title="Fiziotera" class="img-fluid my-3">
 			</div>
 		</div>		
@@ -82,8 +83,8 @@
 			
 			<div class="col-md-8 offset-md-2 my-auto">
 				<div class="section-title">
-					<h2 class="text-center wow animate__animated animate__zoomIn fw-bold">O <span class="main-color">centru</span></h2>
-					 <p class="fs-115">Korektivna gimnastika, Terapijsko fizičko vaspitanje u Budvi (Crna Gora). Naš centar nudi usluge stručnjaka za terapiju vježbanjem, usluge oporavka i rehabilitacije, pripremu kompleksa vježbi za obnavljanje tjelesnih funkcija. Takođe pišemo o fizioterapiji i gimnastici za razne povrede, razmatramo pitanja rehabilitacije i oporavka nakon povreda.</p>
+					<h2 class="text-center wow animate__animated animate__zoomIn fw-bold">About Us</h2>
+					 <p class="fs-115">Our Center offers the services of specialists in physical therapy, recovery and rehabilitation services, and the compilation of exercises to restore body functions. We also write about therapeutic exercise and gymnastics for a variety of injuries, we consider the issues of rehabilitation and recovery after injuries.</p>
 				</div>
 			</div>		
 		</div>
@@ -98,10 +99,10 @@
 			</div>
 			<div class="col-md-4 my-auto">
 				<div class="section-title-left">
-					<h2 class="fw-bold text-md-start text-center"><span class="main-color">Osoblje</span> centra</h2>
+					<h2 class="fw-bold text-md-start text-center">Our Team</h2>
 				</div>
 				<h3>Alexandra</h3>
-				<p class="fs-115">Voditelj centra, instruktor vježbanja i korektivne gimnastike</p>
+				<p class="fs-115">Head of the Center, Instructor of Physical Therapy and Corrective Gymnastics</p>
 				<p>
 					<a href="https://instagram.com/fiziotera" target="_blank" title="Fiziotera Instagram"><img src="/assets/images/insta.svg" alt="Fiziotera Instagram" title="Fiziotera Instagram" width="38" height="38" class="me-2"></a> 
 					<a href="https://www.facebook.com/profile.php?id=100023387449027" title="Fiziotera Facebook" target="_blank"><img src="/assets/images/face.svg" alt="Fiziotera Facebook" title="Fiziotera Facebook" width="38" height="38" class="me-2"></a> 
@@ -126,7 +127,7 @@
 		<div class="row">
 			<div class="col-md-10 offset-md-1">
 				<div class="section-title">
-					<h2 class="fw-bold text-center wow animate__animated animate__zoomIn"><span class="main-color">Odgovori</span> na pitanja</h2>
+					<h2 class="fw-bold text-center wow animate__animated animate__zoomIn">FAQ</h2>
 				</div>
 			</div>
 		</div>
@@ -138,61 +139,61 @@
 				  <div class="accordion-item">
 				    <h2 class="accordion-header" id="headingOne">
 				      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
-				        Šta je fizikalna terapija?
+				        What is physical therapy?
 				      </button>
 				    </h2>
 				    <div id="collapseOne" class="accordion-collapse collapse" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
 				      <div class="accordion-body">
-				        Fizioterapija je naučna disciplina koja uključuje sve najnovije medicinsko dostignuće. Skup vježbi uključenih u terapiju vježbanja posebno je dizajniran i sastavljen za rješavanje specifičnih problema za liječenje određene bolesti, ozljede, uzimajući u obzir uzrok ove bolesti.
+				        Physiotherapy is a scientific discipline that includes all the latest medical advances. The set of exercises included in the exercise therapy is specially designed and compiled to solve specific problems for the treatment of a particular disease, injury, taking into account the cause of this disease.
 				      </div>
 				    </div>
 				  </div>
 				  <div class="accordion-item">
 				    <h2 class="accordion-header" id="headingTwo">
 				      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-				        Ciljevi terapije vežbanjem
+				        The goals of exercise therapy
 				      </button>
 				    </h2>
 				    <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
 				      <div class="accordion-body">
-				        Terapija vježbanjem aktivira metabolizam u tijelu. Zauzvrat, aktiviranje metabolizma utječe na ubrzanje procesa ozdravljenja. Ovaj sportski kompleks dizajniran je kako za opće poboljšanje tijela, tako i za poboljšanje pojedinih pogođenih organa. Časovi pomažu u oporavku tijela nakon bolesti. Takođe, fizioterapijske vježbe mogu biti izvrsna alternativa za starije osobe, kao opći tonik.
+				        Exercise therapy activates the body's metabolism. In turn, the activation of metabolism affects the acceleration of the healing process. This medical complex is designed both for the general improvement of the body and for the improvement of individual affected organs. Exercise helps in the recovery of the body from illness. Also, physiotherapy exercises can be an excellent alternative for the elderly, as a general tonic.
 				      </div>
 				    </div>
 				  </div>
 				  <div class="accordion-item">
 				    <h2 class="accordion-header" id="headingThree">
 				      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-				        Koje vrste terapije vježbanjem postoje?
+				        What are the types of exercise therapy?
 				      </button>
 				    </h2>
 				    <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
 				      <div class="accordion-body">
-				        <strong>Generale</strong> uključuje u svoje složene vježbe koje imaju jačajući učinak na cijelo tijelo u cjelini.
-				        <strong>Specijalizirani</strong> sastoji se od vježbi koje ciljaju određene organe koji su pogođeni bolestima ili ozljedama.
+				        <strong>General</strong> includes in its complex exercises that have a strengthening effect on the entire body as a whole.
+				        <strong>Specialized</strong> consists of exercises that target specific organs that are affected by illness or injury.
 				      </div>
 				    </div>
 				  </div>
 				  <div class="accordion-item">
 				    <h2 class="accordion-header" id="headingFour">
 				      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
-				        Kada se koristi?
+				        When is it used?
 				      </button>
 				    </h2>
 				    <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour" data-bs-parent="#accordionExample">
 				      <div class="accordion-body">
-				        Najčešće se fizikalna terapija propisuje kod povreda kičme, kostiju ili funkcionalnih poremećaja mišićnog aparata. To uključuje sve vrste poremećaja kičme (uključujući skoliozu, lordozu, itd.), Paralizu, parezu i frakture kostiju. Najuspješnija terapija vježbanjem koristi se za osteohondrozo, u profilaktičke i terapijske svrhe.
+				        Most often, physical therapy is prescribed for injuries of the spine, bones or functional disorders of the muscular apparatus. This includes all kinds of spinal disorders (including scoliosis, lordosis, etc.), paralysis, paresis, and bone fractures. The most successful exercise therapy is used for osteochondrosis, for prophylactic and therapeutic purposes.
 				      </div>
 				    </div>
 				  </div>
 				  <div class="accordion-item">
 				    <h2 class="accordion-header" id="headingFive">
 				      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
-				        Imenovanje fizioterapije
+				        Appointment of Physiotherapy
 				      </button>
 				    </h2>
 				    <div id="collapseFive" class="accordion-collapse collapse" aria-labelledby="headingFive" data-bs-parent="#accordionExample">
 				      <div class="accordion-body">
-				        Fizioterapijske vježbe propisane su za trudnice i žene koje su nedavno rodile, kao opći tonik. Vježbanje je vrlo često kod problema sa kardiovaskularnim sistemom, kao i kod bolesti respiratornog sistema. Odličan je za gojaznost i bolesti probavnog sistema. Prirodno, ovo je daleko od čitave liste bolesti za koje je propisana terapija vježbanjem. Ova lista ne pokriva samo fizičke bolesti, već i mentalne bolesti. Terapija vježbanjem je također usmjerena na samoobrazovanje osobe, na razvoj snage, izdržljivosti itd.
+				        Physiotherapy exercises are prescribed for pregnant women and women who have recently given birth, as a general tonic. Exercise is very common for problems with the cardiovascular system, as well as for diseases of the respiratory system. It is excellent for obesity and diseases of the digestive system. Naturally, this is far from the entire list of diseases for which exercise therapy is prescribed. This list covers not only physical illnesses, but also mental illnesses. Exercise therapy is also aimed at self-education of a person, at developing strength, endurance, etc.
 				      </div>
 				    </div>
 				  </div>
@@ -211,7 +212,7 @@
 		<div class="row">
 			<div class="col text-center">
 				<div class="section-title">
-					<h2 class="fw-bold wow animate__animated animate__bounce">Kontakti</h2>
+					<h2 class="fw-bold wow animate__animated animate__bounce">Contacts</h2>
 				</div>
 			</div>
 		</div>
@@ -219,9 +220,9 @@
 	<div class="container">	
 			<div class="row">
 				<div class="col-md-3 offset-md-1 mb-3">
-					<p><span class="fw-500 fs-115"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="#000000" class="bi bi-geo-alt" viewBox="0 0 16 16"><path d="M12.166 8.94c-.524 1.062-1.234 2.12-1.96 3.07A31.493 31.493 0 0 1 8 14.58a31.481 31.481 0 0 1-2.206-2.57c-.726-.95-1.436-2.008-1.96-3.07C3.304 7.867 3 6.862 3 6a5 5 0 0 1 10 0c0 .862-.305 1.867-.834 2.94zM8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10z"/><path d="M8 8a2 2 0 1 1 0-4 2 2 0 0 1 0 4zm0 1a3 3 0 1 0 0-6 3 3 0 0 0 0 6z"/></svg> Budva, Crna Gora</span></p>
-					<p><span class="fw-500 fs-115"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="#000000" class="bi bi-whatsapp" viewBox="0 0 16 16"><path d="M13.601 2.326A7.854 7.854 0 0 0 7.994 0C3.627 0 .068 3.558.064 7.926c0 1.399.366 2.76 1.057 3.965L0 16l4.204-1.102a7.933 7.933 0 0 0 3.79.965h.004c4.368 0 7.926-3.558 7.93-7.93A7.898 7.898 0 0 0 13.6 2.326zM7.994 14.521a6.573 6.573 0 0 1-3.356-.92l-.24-.144-2.494.654.666-2.433-.156-.251a6.56 6.56 0 0 1-1.007-3.505c0-3.626 2.957-6.584 6.591-6.584a6.56 6.56 0 0 1 4.66 1.931 6.557 6.557 0 0 1 1.928 4.66c-.004 3.639-2.961 6.592-6.592 6.592zm3.615-4.934c-.197-.099-1.17-.578-1.353-.646-.182-.065-.315-.099-.445.099-.133.197-.513.646-.627.775-.114.133-.232.148-.43.05-.197-.1-.836-.308-1.592-.985-.59-.525-.985-1.175-1.103-1.372-.114-.198-.011-.304.088-.403.087-.088.197-.232.296-.346.1-.114.133-.198.198-.33.065-.134.034-.248-.015-.347-.05-.099-.445-1.076-.612-1.47-.16-.389-.323-.335-.445-.34-.114-.007-.247-.007-.38-.007a.729.729 0 0 0-.529.247c-.182.198-.691.677-.691 1.654 0 .977.71 1.916.81 2.049.098.133 1.394 2.132 3.383 2.992.47.205.84.326 1.129.418.475.152.904.129 1.246.08.38-.058 1.171-.48 1.338-.943.164-.464.164-.86.114-.943-.049-.084-.182-.133-.38-.232z"/></svg> +382 68 502-752</span><br><span class="text-muted"><small>Whatsapp / Viber</small></span></p>					
-					<p><span class="fw-500 fs-115"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="#000000" class="bi bi-envelope" viewBox="0 0 16 16"><path d="M0 4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V4zm2-1a1 1 0 0 0-1 1v.217l7 4.2 7-4.2V4a1 1 0 0 0-1-1H2zm13 2.383-4.758 2.855L15 11.114v-5.73zm-.034 6.878L9.271 8.82 8 9.583 6.728 8.82l-5.694 3.44A1 1 0 0 0 2 13h12a1 1 0 0 0 .966-.739zM1 11.114l4.758-2.876L1 5.383v5.73z"/></svg> info@fiziotera.me</span></p>					
+					<p><span class="fw-bold fs-115"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="#000000" class="bi bi-geo-alt" viewBox="0 0 16 16"><path d="M12.166 8.94c-.524 1.062-1.234 2.12-1.96 3.07A31.493 31.493 0 0 1 8 14.58a31.481 31.481 0 0 1-2.206-2.57c-.726-.95-1.436-2.008-1.96-3.07C3.304 7.867 3 6.862 3 6a5 5 0 0 1 10 0c0 .862-.305 1.867-.834 2.94zM8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10z"/><path d="M8 8a2 2 0 1 1 0-4 2 2 0 0 1 0 4zm0 1a3 3 0 1 0 0-6 3 3 0 0 0 0 6z"/></svg> Budva, Montenegro</span></p>
+					<p><span class="fw-bold fs-115"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="#000000" class="bi bi-whatsapp" viewBox="0 0 16 16"><path d="M13.601 2.326A7.854 7.854 0 0 0 7.994 0C3.627 0 .068 3.558.064 7.926c0 1.399.366 2.76 1.057 3.965L0 16l4.204-1.102a7.933 7.933 0 0 0 3.79.965h.004c4.368 0 7.926-3.558 7.93-7.93A7.898 7.898 0 0 0 13.6 2.326zM7.994 14.521a6.573 6.573 0 0 1-3.356-.92l-.24-.144-2.494.654.666-2.433-.156-.251a6.56 6.56 0 0 1-1.007-3.505c0-3.626 2.957-6.584 6.591-6.584a6.56 6.56 0 0 1 4.66 1.931 6.557 6.557 0 0 1 1.928 4.66c-.004 3.639-2.961 6.592-6.592 6.592zm3.615-4.934c-.197-.099-1.17-.578-1.353-.646-.182-.065-.315-.099-.445.099-.133.197-.513.646-.627.775-.114.133-.232.148-.43.05-.197-.1-.836-.308-1.592-.985-.59-.525-.985-1.175-1.103-1.372-.114-.198-.011-.304.088-.403.087-.088.197-.232.296-.346.1-.114.133-.198.198-.33.065-.134.034-.248-.015-.347-.05-.099-.445-1.076-.612-1.47-.16-.389-.323-.335-.445-.34-.114-.007-.247-.007-.38-.007a.729.729 0 0 0-.529.247c-.182.198-.691.677-.691 1.654 0 .977.71 1.916.81 2.049.098.133 1.394 2.132 3.383 2.992.47.205.84.326 1.129.418.475.152.904.129 1.246.08.38-.058 1.171-.48 1.338-.943.164-.464.164-.86.114-.943-.049-.084-.182-.133-.38-.232z"/></svg> +382 68 502-752</span><br><span class="text-muted"><small>Whatsapp / Viber</small></span></p>					
+					<p><span class="fw-bold fs-115"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="#000000" class="bi bi-envelope" viewBox="0 0 16 16"><path d="M0 4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V4zm2-1a1 1 0 0 0-1 1v.217l7 4.2 7-4.2V4a1 1 0 0 0-1-1H2zm13 2.383-4.758 2.855L15 11.114v-5.73zm-.034 6.878L9.271 8.82 8 9.583 6.728 8.82l-5.694 3.44A1 1 0 0 0 2 13h12a1 1 0 0 0 .966-.739zM1 11.114l4.758-2.876L1 5.383v5.73z"/></svg> info@fiziotera.me</span></p>					
 				</div>
 				<div class="col-md-8">
 					<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2951.3922017527943!2d18.836827675846138!3d42.29149607119926!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x134dd5e514f6e0bd%3A0x54c2370ba05ae4fc!2sFiziotera!5e0!3m2!1sru!2sru!4v1736618508516!5m2!1sru!2sru" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
@@ -231,6 +232,7 @@
 </section>
 <!-- END - CONTACTS SECTION -->
 
+<!-- FOOTER SECTION -->
 	<footer>
 		<div class="container">
 		   
@@ -240,16 +242,15 @@
 		        <img src="/assets/images/fiziotera-new.svg" alt="Fiziotera" title="Fiziotera" width="150" height="32" class="my-md-0 my-3">	
 		      </div>
 		      <div class="col-md-3 fs-115">
-		      	<p><span class="text-muted">&rarr;</span> <a href="#about">O Centru</a></p>
-		      	<p><span class="text-muted">&rarr;</span> <a href="#team">Tim</a></p>
-		      	<p><span class="text-muted">&rarr;</span> <a href="#faq">Odgovori na pitanja</a></p>
-		      	<p><span class="text-muted">&rarr;</span> <a href="#contacts">Kontakti</a></p>
+		      	<p><span class="text-muted">&rarr;</span> <a href="#about">About Us</a></p>
+		      	<p><span class="text-muted">&rarr;</span> <a href="#team">Our Team</a></p>
+		      	<p><span class="text-muted">&rarr;</span> <a href="#contacts">Contacts</a></p>
 					</div>
 		      <div class="col-md-3">
 
 		      	<div class="dropdown mb-3">
 						  <button class="btn btn-outline-secondary dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
-						    Odaberite jezik
+						    Choose language
 						  </button>
 						  <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
 						    <li><a class="dropdown-item" href="/"><img src="/assets/images/me_ME.svg" alt="Crnogorski" width="24" height="16"> Crnogorski</a></li>
@@ -259,9 +260,9 @@
 						</div>
 		      </div>      
 		      <div class="col-md-3">
-		      	
-		        <p>Sva prava zadržana. Kopiranje materijala je strogo zabranjeno.</p>
-		        <p class="text-muted"><small>2017-2025 &copy; Fiziotera</small></p>
+		      	<p class="fs-115"><span class="text-muted">&rarr;</span> <a href="#faq">FAQ</a></p>
+		        <p>All rights reserved. Copying materials is strictly prohibited.</p>
+		        <p class="text-muted"><small>Fiziotera &copy; 2017-2025</small></p>
 		      </div>
 
 	    </div>
@@ -270,9 +271,9 @@
 	<a id="back-to-top" href="#" class="btn btn-light btn-lg bg-light-grey back-to-top" role="button"><img src="/assets/images/up-arrow.svg" alt="Back to top" width="18px" height="18px"></a>
 
 
-    <script src="/assets/js/jquery.min.js"></script>
-    <script src="/assets/js/popper.min.js"></script>
-    <script src="/assets/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
     <script src="/assets/js/wow.min.js"></script>
     <script>
         const wow = new WOW({
@@ -284,9 +285,8 @@
         })
         wow.init();
     </script>
-    <!-- <script src="/assets/js/leaflet.js"></script> -->
     <script src='/assets/js/app.js'></script>
-    <!-- <script src="/assets/js/validator.min.js"></script> -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/1000hz-bootstrap-validator/0.11.9/validator.min.js"></script>
     <!-- <script src="contact.js"></script> -->
 
 </body>
